@@ -4,11 +4,11 @@ import { Home, ShoppingCart, Settings, Palette, Star, AlertTriangle } from "luci
 const Sidebar = () => {
   const menuItems = [
     { name: "Home", icon: <Home size={20} /> },
-    { name: "Orders", icon: <ShoppingCart size={20} /> },
-    { name: "Settings", icon: <Settings size={20} /> },
-    { name: "Theme", icon: <Palette size={20} /> },
-    { name: "Icons", icon: <Star size={20} /> },
-    { name: "Error", icon: <AlertTriangle size={20} /> },
+    // { name: "Orders", icon: <ShoppingCart size={20} /> },
+    // { name: "Settings", icon: <Settings size={20} /> },
+    // { name: "Theme", icon: <Palette size={20} /> },
+    // { name: "Icons", icon: <Star size={20} /> },
+    // { name: "Error", icon: <AlertTriangle size={20} /> },
   ];
 
   return (

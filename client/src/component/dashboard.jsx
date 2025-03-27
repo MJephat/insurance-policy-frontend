@@ -5,7 +5,6 @@ import KPICards from "./kpicards";
 import Sidebar from "./sidebar";
 import StatsCards from "./statsCard";
 import PolicyTable from './table';
-import AddPolicyForm from './form';
 
 
 const Dashboard = () => {
@@ -18,7 +17,6 @@ const Dashboard = () => {
         <KPICards />
         <Chart />
         <PolicyTable />
-        {/* <AddPolicyForm /> */}
       </div>
     </div>
   );

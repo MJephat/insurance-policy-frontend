@@ -42,7 +42,7 @@ import React from 'react';
 
     return (
       <div>
-        <h2 className="text-xl font-bold mt-6">Key Performance Indicators</h2>
+        <h2 className="text-xl font-bold mt-6">Performance Indicators</h2>
         <div className="grid grid-cols-4 gap-4 mt-2">
           {validPolicyTypes.map((policyType) => (
             <div key={policyType} className="bg-gray-100 p-4 rounded">
